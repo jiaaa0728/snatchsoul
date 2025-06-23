@@ -2,7 +2,7 @@
 helping those teenagers who has friendship issue and mental health
 def record_mood():
     """Allows the user to record their mood and a journal entry."""
-    date_str = datetime.date.today().strftime("%Y-%m-%d")
+    date_str = datetime.date.today().strftime("%Y%m%d")
     print("\n--- Mood Journal ---")
     mood = input("On a scale of 1-5 (1=bad, 5=great), how are you feeling today? ")
     entry = input("Write about your day or how you're feeling (press Enter twice to finish):\n")
